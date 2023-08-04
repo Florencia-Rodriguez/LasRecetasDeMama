@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assests/iconos/gorrito.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <nav class="barra-navegacion">
+        <img width="110" height="95" src="../assests/iconos/gorrito.png" alt="Logo">
+        <ul>
+            <li class="estilo-logo">
+                Las recetas de mama
+            </li>
+            <li>
+                <a class="estilo-links" href="../index.html">Home</a>
+            </li>
+            <li>
+                <a class="estilo-links" href="./pastafrola.html">Pastafrola</a>
+            </li>
+            <li>
+                <a class="estilo-links" href="./budin.html">Budin</a>
+            </li>
+            <li>
+                <a class="estilo-links" href="./locro.html">Locro</a>
+            </li>
+            <li>
+                <a class="estilo-links" href="#">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="letra"> Pedi tu receta</h1>
+    </header>
+    <main>
+        <form class="items" action="procesar.php" method="post">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre">
+            </div>
+
+            <div>
+                <label for="apellido" method="post">Apellido:</label>
+                <input type="text" name="apellido">
+            </div>
+
+            <div>
+                <label for="email">Correo Electronico:</label>
+                <input type="email" name="email">
+            </div>
+
+            <h3>¿Que receta te gustaria que agreguemos a nuestro sitio?</h3>
+            <textarea name="mensaje" cols="30" rows="10"></textarea>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </main>
+    <footer class="items">
+        ¡Gracias por tu colaboracion!
+    </footer>
+</body>
+</html>
