@@ -104,16 +104,19 @@ body{
     padding-top: 20px;
     margin-top: 25px;
     margin-left: 30px;
-    text-align: center;
+    text-align: justify;
     font-family: 'fuente-principal', KumbhSans-Regular;
     font-size: 20px;
     color:#000000;
+    list-style: none;
 }
 
 .imagen{
 display: block;
 border: 15px;
 padding: 15px;
+width: 400px;
+height: 400px;
 }
 
 .link-imagen{
@@ -239,4 +242,124 @@ item3{
 .item5{
     background-color: green;
     grid-area: footer;
+}
+
+
+.imagen-logo{
+    width: 95px;
+    height: 70px;
+}
+
+.footer-contacto{
+        display: block;
+        padding: 18px;
+        text-align: center;
+        font-family: 'fuente-principal', KumbhSans-Regular;
+        font-size: 18px;
+        color:#523710;
+    }
+
+.cuestionario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px) {
+    .items {
+    /*tipografia*/
+    display: inline;
+    font-family: 'fuente-principal', KumbhSanas-Regular;
+    font-size: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-weight: lighter;
+    text-align: justify;
+    list-style: none;
+    }
+
+    .imagen-logo{
+        width: 15%;
+        height: 15%;
+    }
+    .letra{
+        display: block-inline;
+        text-align: center;
+        background-color: #FEB244;
+        border-top: 5px solid #FFFDCF;
+        border-bottom: 5px solid #FFFDCF;
+        font-family: 'fuente-secundaria', KaushanScript-Regular;
+        color: #523710;
+        font-size: 22px;
+    }
+
+    .estilo-logo{
+        display: inline;
+        font-family: 'fuente-secundaria', KaushanScript-Regular;
+        font-size: 28px;
+        color: #FFFDCF;
+        list-style-type: none;
+    }
+
+    .imagen{
+        display: inline;
+        border: 15px;
+        padding: 15px;
+        width: 350px;
+        height: 350px;
+        }
+
+    .encabezado{
+    display: block;
+    border: 5px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'fuente-principal', KumbhSans-Regular;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color:#FF891C;
+}
+
+.footer{
+    display: inline;
+    font-family: 'fuente-principal', KumbhSans-Regular;
+    font-size: 0px;
+    text-align: justify;
+    color:#523710;
+}
+
+.encabezado-pasos{
+    display: block;
+    padding-top: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'fuente-principal', KumbhSans-Regular;
+    font-size: 22px;
+    font-weight: bold;
+    color:#FF891C;
+}    
+.items-pasos{
+    display: inline;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: justify;
+    font-family: 'fuente-principal', KumbhSans-Regular;
+    font-size: 15px;
+    color:#000000;
+    list-style: none;
+    
+}
+
+
+}
+
+    @media screen and (max-width: 480px) {
+    .items-pasos {
+      /*tipografia*/
+      font-family: 'fuente-principal', KumbhSanas-Regular;
+      font-size: 15px;
+      font-weight: lighter;
+    }
 }

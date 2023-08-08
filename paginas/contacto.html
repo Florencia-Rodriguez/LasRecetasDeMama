@@ -4,62 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assests/iconos/gorrito.png" type="image/x-icon">
+    <link rel="stylesheet" href="../libs/bootstrap-5.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Contacto</title>
 </head>
 <body>
-    <nav class="barra-navegacion">
-        <img width="110" height="95" src="../assests/iconos/gorrito.png" alt="Logo">
-        <ul>
-            <li class="estilo-logo">
-                Las recetas de mama
-            </li>
-            <li>
-                <a class="estilo-links" href="../index.html">Home</a>
-            </li>
-            <li>
-                <a class="estilo-links" href="./pastafrola.html">Pastafrola</a>
-            </li>
-            <li>
-                <a class="estilo-links" href="./budin.html">Budin</a>
-            </li>
-            <li>
-                <a class="estilo-links" href="./locro.html">Locro</a>
-            </li>
-            <li>
-                <a class="estilo-links" href="#">Contacto</a>
-            </li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg barra-navegacion">
+
+        <div class="container-fluid">
+            <img class="img-fluid imagen-logo" src="../assests/iconos/gorrito.png" alt="Logo">
+            <a class="navbar-brand estilo-logo" href="#">Las recetas de mama</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link estilo-links" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle estilo-links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dulces
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./pastafrola.html">Pastafrola</a></li>
+                    <li><a class="dropdown-item" href="./budin.html">Budin</a></li>
+                </ul>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle estilo-links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Saladas
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./locro.html">Locro</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link estilo-links" aria-current="page" href="#">Contacto</a>
+                    </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
     <header>
         <h1 class="letra"> Pedi tu receta</h1>
     </header>
     <main>
         <form class="items" action="procesar.php" method="post">
-            <div>
+            <div class="cuestionario">
                 <label for="nombre">Nombre:</label>
                 <input type="text" name="nombre">
             </div>
 
-            <div>
+            <div class="cuestionario">
                 <label for="apellido" method="post">Apellido:</label>
                 <input type="text" name="apellido">
             </div>
 
-            <div>
+            <div class="cuestionario">
                 <label for="email">Correo Electronico:</label>
                 <input type="email" name="email">
             </div>
 
-            <h3>¿Que receta te gustaria que agreguemos a nuestro sitio?</h3>
+            <h3 class="items">¿Que receta te gustaria que agreguemos a nuestro sitio?</h3>
             <textarea name="mensaje" cols="30" rows="10"></textarea>
 
             <button type="submit">Enviar</button>
             <button type="reset">Borrar</button>
         </form>
     </main>
-    <footer class="items">
+    <footer class="footer-contacto">
         ¡Gracias por tu colaboracion!
     </footer>
+    <script src="../libs/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
