@@ -1,365 +1,343 @@
-@font-face {
-    font-family: 'fuente-principal';
-    src: url('../assests/fuentes/KumbhSans-Regular.ttf');
+body {
+  background-color: pink;
 }
 
 @font-face {
-    font-family: 'fuente-secundaria';
-    src: url(../assests/fuentes/KaushanScript-Regular.ttf);
+  font-family: "fuente-principal";
+  src: url("../assests/fuentes/KumbhSans-Regular.ttf");
+}
+@font-face {
+  font-family: "fuente-secundaria";
+  src: url(../assests/fuentes/KaushanScript-Regular.ttf);
+}
+body {
+  background-color: #FFFDCF;
 }
 
-body{
-    background-color: #FFFDCF;
+.barra-navegacion {
+  display: block;
+  padding: 0px;
+  margin: auto;
+  background-color: #FF891C;
+  position: sticky;
+  top: 0px;
 }
 
-.barra-navegacion{
-    display: block;
-    padding: 0px;
-    margin: auto;
-    background-color: #FF891C;
-    position: sticky;
-    top: 0px;
-
+.loguito {
+  display: block;
+  text-align: justify;
+  border: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-right: 0px;
 }
 
-
-
-.loguito{
-    display: block;
-    text-align: justify;
-    border: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
-    padding-right: 0px;
+.estilo-logo {
+  display: inline;
+  font-family: "fuente-secundaria", KaushanScript-Regular;
+  font-size: 38px;
+  color: #FFFDCF;
+  list-style-type: none;
 }
 
-.estilo-logo{
-    display: inline;
-    font-family: 'fuente-secundaria', KaushanScript-Regular;
-    font-size: 38px;
-    color: #FFFDCF;
-    list-style-type: none;
-}
-.estilo-links{
-    display: inline;
-    margin: 10px;
-    text-decoration: none;
-    color: #FFFDCF;
-    font-family: 'fuente-principal', KumbhSans-Regular;
-    font-size: 24px;
-    font-weight: bold;
-    list-style-type: none;
+.estilo-links {
+  display: inline;
+  margin: 10px;
+  text-decoration: none;
+  color: #FFFDCF;
+  font-family: "fuente-principal", KumbhSans-Regular;
+  font-size: 24px;
+  font-weight: bold;
+  list-style-type: none;
 }
 
-.letra{
-    display: block-inline;
-    text-align: center;
-    background-color: #FEB244;
-    border-top: 5px solid #FFFDCF;
-    border-bottom: 5px solid #FFFDCF;
-    font-family: 'fuente-secundaria', KaushanScript-Regular;
-    color: #523710;
+.letra {
+  display: block-inline;
+  text-align: center;
+  background-color: #FEB244;
+  border-top: 5px solid #FFFDCF;
+  border-bottom: 5px solid #FFFDCF;
+  font-family: "fuente-secundaria", KaushanScript-Regular;
+  color: #523710;
 }
 
-.encabezado{
-    display: block;
-    border: 5px;
-    padding-top: 20px;
-    margin-top: 25px;
-    margin-left: 30px;
-    text-align: justify;
-    font-family: 'fuente-principal', KumbhSans-Regular;
-    font-size: 28px;
-    font-weight: bold;
-    color:#FF891C;
+.encabezado {
+  display: block;
+  border: 5px;
+  padding-top: 20px;
+  margin-top: 25px;
+  margin-left: 30px;
+  text-align: justify;
+  font-family: "fuente-principal", KumbhSans-Regular;
+  font-size: 28px;
+  font-weight: bold;
+  color: #FF891C;
 }
 
-.items{
-    display: block;
-    border: 5px;
-    padding-top: 20px;
-    margin-top: 25px;
-    text-align: justify;
-    font-family: 'fuente-principal', KumbhSans-Regular;
-    font-size: 20px;
-    color:#000000;
+.items {
+  display: block;
+  border: 5px;
+  padding-top: 20px;
+  margin-top: 25px;
+  text-align: justify;
+  font-family: "fuente-principal", KumbhSans-Regular;
+  font-size: 20px;
+  color: #000000;
 }
 
-.encabezado-pasos{
-    display: block;
-    border: 5px;
-    padding-top: 20px;
-    margin-top: 25px;
-    margin-left: 30px;
-    text-align: center;
-    font-family: 'fuente-principal', KumbhSans-Regular;
-    font-size: 28px;
-    font-weight: bold;
-    color:#FF891C;
+.encabezado-pasos {
+  display: block;
+  border: 5px;
+  padding-top: 20px;
+  margin-top: 25px;
+  margin-left: 30px;
+  text-align: center;
+  font-family: "fuente-principal", KumbhSans-Regular;
+  font-size: 28px;
+  font-weight: bold;
+  color: #FF891C;
 }
 
-.items-pasos{
-    display: block;
-    border: 5px;
-    padding-top: 20px;
-    margin-top: 25px;
-    margin-left: 30px;
-    text-align: justify;
-    font-family: 'fuente-principal', KumbhSans-Regular;
-    font-size: 20px;
-    color:#000000;
-    list-style: none;
+.items-pasos {
+  display: block;
+  border: 5px;
+  padding-top: 20px;
+  margin-top: 25px;
+  margin-left: 30px;
+  text-align: justify;
+  font-family: "fuente-principal", KumbhSans-Regular;
+  font-size: 20px;
+  color: #000000;
+  list-style: none;
 }
 
-.imagen{
-display: block;
-border: 15px;
-padding: 15px;
-width: 400px;
-height: 400px;
+.imagen {
+  display: block;
+  border: 15px;
+  padding: 15px;
+  width: 400px;
+  height: 400px;
 }
 
-.link-imagen{
-    font-size: 0px;
+.link-imagen {
+  font-size: 0px;
 }
-.footer{
-    display: inline;
-    border: 5px;
-    width: 50%;
-    height: 250px;
-    padding-top: 20px;
-    padding-left: 20%;
-    margin-top: 25px;
-    margin-left: 30px;
-    font-family: 'fuente-principal', KumbhSans-Regular;
-    font-size: 18px;
-    color:#523710;
+
+.footer {
+  display: inline;
+  border: 5px;
+  width: 50%;
+  height: 250px;
+  padding-top: 20px;
+  padding-left: 20%;
+  margin-top: 25px;
+  margin-left: 30px;
+  font-family: "fuente-principal", KumbhSans-Regular;
+  font-size: 18px;
+  color: #523710;
 }
 
 /*CSS GRID PRACTICA*/
-.cabecera{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /*tipografia*/
-    font-family: 'fuente-principal', KumbhSanas-Regular;
-    font-size: 50px;
+.cabecera {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*tipografia*/
+  font-family: "fuente-principal", KumbhSanas-Regular;
+  font-size: 50px;
 }
 
-.grid-container{
-    /*boxmodeling*/  
-    width: 90%;
-    max-width: 1000px;
-    border: 10px solid #000000;
-    margin: auto;
-    
-    /*tipografia*/
-    font-size: 50px;
-    text-align: center;
-    
-    /*acivamos grid*/
-    display: grid;
-    /*definimos la cant de columnas y el ancho de las mismas*/
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4,1fr);
-    /*espacio entre columnas*/
-    column-gap: 5px;
-    row-gap: 5px;
-
+.grid-container {
+  /*boxmodeling*/
+  width: 90%;
+  max-width: 1000px;
+  border: 10px solid #000000;
+  margin: auto;
+  /*tipografia*/
+  font-size: 50px;
+  text-align: center;
+  /*acivamos grid*/
+  display: grid;
+  /*definimos la cant de columnas y el ancho de las mismas*/
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  /*espacio entre columnas*/
+  column-gap: 5px;
+  row-gap: 5px;
 }
 
-.grid-container > div{
-    /*box modeling*/
-    border: 1px solid #000000;
-    padding: 20px;
-    color: white;
-    background-color: salmon;
-
+.grid-container > div {
+  /*box modeling*/
+  border: 1px solid #000000;
+  padding: 20px;
+  color: white;
+  background-color: salmon;
 }
 
-.titulo{
-    font-family: 'fuente-principal';
-    font-size: 70%;
+.titulo {
+  font-family: "fuente-principal";
+  font-size: 70%;
 }
-
 
 /*grid template areas*/
-.contenedor-grid{
-    /*tipografias*/
-font-family: 'fuente-principal';
-font-size: 25px;
-font-weight: bold;
-
-/*box modeling*/
-width: 90%;
-height: 600px;
-margin: 40px auto;
-border: 5px groove #FFFDCF;
-
-/*activamos grid*/
-display: grid;
-grid-template-columns: repeat(3,1fr);
-grid-template-rows: repeat(4,1fr);
-gap: 10px;
-
-/*grid areas*/
-grid-template-areas: 
-"header  header  header"
-"nav     main    aside"
-"nav     main    aside"
-"footer  footer  footer"
-;
+.contenedor-grid {
+  /*tipografias*/
+  font-family: "fuente-principal";
+  font-size: 25px;
+  font-weight: bold;
+  /*box modeling*/
+  width: 90%;
+  height: 600px;
+  margin: 40px auto;
+  border: 5px groove #FFFDCF;
+  /*activamos grid*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  /*grid areas*/
+  grid-template-areas: "header  header  header" "nav     main    aside" "nav     main    aside" "footer  footer  footer";
 }
 
-.itemss{
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-
+.itemss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.item1{
-    background-color: aquamarine;
-    grid-column: header;
-
+.item1 {
+  background-color: aquamarine;
+  grid-column: header;
 }
 
-.item2{
-    background-color: slateblue;
-    grid-area: nav;
-}
-item3{
-    background-color: #FF891C;
-    grid-area: main;
+.item2 {
+  background-color: slateblue;
+  grid-area: nav;
 }
 
-.item4{
-    background-color: purple;
-    grid-area: aside;
+item3 {
+  background-color: #FF891C;
+  grid-area: main;
 }
 
-.item5{
-    background-color: green;
-    grid-area: footer;
+.item4 {
+  background-color: purple;
+  grid-area: aside;
 }
 
-
-.imagen-logo{
-    width: 95px;
-    height: 70px;
+.item5 {
+  background-color: green;
+  grid-area: footer;
 }
 
-.footer-contacto{
-        display: block;
-        padding: 18px;
-        text-align: center;
-        font-family: 'fuente-principal', KumbhSans-Regular;
-        font-size: 18px;
-        color:#523710;
-    }
+.imagen-logo {
+  width: 95px;
+  height: 70px;
+}
 
-.cuestionario{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
+.footer-contacto {
+  display: block;
+  padding: 18px;
+  text-align: center;
+  font-family: "fuente-principal", KumbhSans-Regular;
+  font-size: 18px;
+  color: #523710;
+}
+
+.cuestionario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 480px) {
-    .items {
+  .items {
     /*tipografia*/
     display: inline;
-    font-family: 'fuente-principal', KumbhSanas-Regular;
+    font-family: "fuente-principal", KumbhSanas-Regular;
     font-size: 15px;
     margin-left: 8px;
     margin-right: 8px;
     font-weight: lighter;
     text-align: justify;
     list-style: none;
-    }
-
-    .imagen-logo{
-        width: 15%;
-        height: 15%;
-    }
-    .letra{
-        display: block-inline;
-        text-align: center;
-        background-color: #FEB244;
-        border-top: 5px solid #FFFDCF;
-        border-bottom: 5px solid #FFFDCF;
-        font-family: 'fuente-secundaria', KaushanScript-Regular;
-        color: #523710;
-        font-size: 22px;
-    }
-
-    .estilo-logo{
-        display: inline;
-        font-family: 'fuente-secundaria', KaushanScript-Regular;
-        font-size: 28px;
-        color: #FFFDCF;
-        list-style-type: none;
-    }
-
-    .imagen{
-        display: inline;
-        border: 15px;
-        padding: 15px;
-        width: 350px;
-        height: 350px;
-        }
-
-    .encabezado{
+  }
+  .imagen-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .letra {
+    display: block-inline;
+    text-align: center;
+    background-color: #FEB244;
+    border-top: 5px solid #FFFDCF;
+    border-bottom: 5px solid #FFFDCF;
+    font-family: "fuente-secundaria", KaushanScript-Regular;
+    color: #523710;
+    font-size: 22px;
+  }
+  .estilo-logo {
+    display: inline;
+    font-family: "fuente-secundaria", KaushanScript-Regular;
+    font-size: 28px;
+    color: #FFFDCF;
+    list-style-type: none;
+  }
+  .imagen {
+    display: inline;
+    border: 15px;
+    padding: 15px;
+    width: 350px;
+    height: 350px;
+  }
+  .encabezado {
     display: block;
     border: 5px;
     padding-top: 10px;
     text-align: center;
-    font-family: 'fuente-principal', KumbhSans-Regular;
+    font-family: "fuente-principal", KumbhSans-Regular;
     font-size: 22px;
     text-align: center;
     font-weight: bold;
-    color:#FF891C;
-}
-
-.footer{
+    color: #FF891C;
+  }
+  .footer {
     display: inline;
-    font-family: 'fuente-principal', KumbhSans-Regular;
+    font-family: "fuente-principal", KumbhSans-Regular;
     font-size: 0px;
     text-align: justify;
-    color:#523710;
-}
-
-.encabezado-pasos{
+    color: #523710;
+  }
+  .encabezado-pasos {
     display: block;
     padding-top: 5px;
     margin-top: 10px;
     text-align: center;
-    font-family: 'fuente-principal', KumbhSans-Regular;
+    font-family: "fuente-principal", KumbhSans-Regular;
     font-size: 22px;
     font-weight: bold;
-    color:#FF891C;
-}    
-.items-pasos{
+    color: #FF891C;
+  }
+  .items-pasos {
     display: inline;
     margin-left: 8px;
     margin-right: 8px;
     text-align: justify;
-    font-family: 'fuente-principal', KumbhSans-Regular;
+    font-family: "fuente-principal", KumbhSans-Regular;
     font-size: 15px;
-    color:#000000;
+    color: #000000;
     list-style: none;
-    
+  }
+}
+@media screen and (max-width: 480px) {
+  .items-pasos {
+    /*tipografia*/
+    font-family: "fuente-principal", KumbhSanas-Regular;
+    font-size: 15px;
+    font-weight: lighter;
+  }
 }
 
-
-}
-
-    @media screen and (max-width: 480px) {
-    .items-pasos {
-      /*tipografia*/
-      font-family: 'fuente-principal', KumbhSanas-Regular;
-      font-size: 15px;
-      font-weight: lighter;
-    }
-}
+/*# sourceMappingURL=estilos.css.map */
