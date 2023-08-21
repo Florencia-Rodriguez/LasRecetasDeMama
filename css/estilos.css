@@ -141,98 +141,20 @@ body {
   color: #523710;
 }
 
-/*CSS GRID PRACTICA*/
-.cabecera {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /*tipografia*/
-  font-family: "fuente-principal", KumbhSanas-Regular;
-  font-size: 50px;
-}
-
-.grid-container {
-  /*boxmodeling*/
-  width: 90%;
-  max-width: 1000px;
-  border: 10px solid #000000;
-  margin: auto;
-  /*tipografia*/
-  font-size: 50px;
-  text-align: center;
-  /*acivamos grid*/
-  display: grid;
-  /*definimos la cant de columnas y el ancho de las mismas*/
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  /*espacio entre columnas*/
-  column-gap: 5px;
-  row-gap: 5px;
-}
-
-.grid-container > div {
-  /*box modeling*/
-  border: 1px solid #000000;
-  padding: 20px;
-  color: white;
-  background-color: salmon;
-}
-
 .titulo {
   font-family: "fuente-principal";
   font-size: 70%;
 }
 
-/*grid template areas*/
-.contenedor-grid {
-  /*tipografias*/
-  font-family: "fuente-principal";
-  font-size: 25px;
-  font-weight: bold;
-  /*box modeling*/
-  width: 90%;
-  height: 600px;
-  margin: 40px auto;
-  border: 5px groove #FFFDCF;
-  /*activamos grid*/
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 10px;
-  /*grid areas*/
-  grid-template-areas: "header  header  header" "nav     main    aside" "nav     main    aside" "footer  footer  footer";
+.button {
+  background-image: radial-gradient(circle, #FEB244, #FF891C);
 }
 
-.itemss {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.item1 {
-  background-color: aquamarine;
-  grid-column: header;
-}
-
-.item2 {
-  background-color: slateblue;
-  grid-area: nav;
-}
-
-item3 {
-  background-color: #FF891C;
-  grid-area: main;
-}
-
-.item4 {
-  background-color: purple;
-  grid-area: aside;
-}
-
-.item5 {
-  background-color: green;
-  grid-area: footer;
+.button:hover {
+  background-image: radial-gradient(circle, #FF891C, #FEB244);
+  
+  transform: scale(1.1,1.1);
+  
 }
 
 .imagen-logo {
